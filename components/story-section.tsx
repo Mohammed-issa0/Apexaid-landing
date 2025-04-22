@@ -89,7 +89,7 @@ export function StorySection() {
             <UserCircle2 className="h-12 w-12 text-primary-light ml-4" />
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">قصة عمر</h3>
-              <p className="text-gray-600">تجربة حقيقية مع Urinexa</p>
+              <p className="text-gray-600">تجربة حقيقية مع apexaid</p>
             </div>
           </motion.div>
 
@@ -107,7 +107,7 @@ export function StorySection() {
               التي كانت تميزه.
             </motion.p>
             <motion.p variants={listAnimation}>
-              بدأ البحث عن حلٍ يضمن له الأمان والفعالية، حتى اكتشف Urinexa، الحل
+              بدأ البحث عن حلٍ يضمن له الأمان والفعالية، حتى اكتشف apexaid، الحل
               الطبيعي الذي أعاد له قوته وعزز من نشاطه دون أي آثار جانبية.
             </motion.p>
             <motion.p
