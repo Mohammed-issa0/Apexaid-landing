@@ -55,36 +55,11 @@ export function Footer() {
                   الأسئلة الشائعة
                 </a>
               </li>
-              <li>
-                <a href="#order" className="text-white/80 hover:text-white transition-colors">
-                  طلب المنتج
-                </a>
-              </li>
+             
             </ul>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="text-right"
-          >
-            <h3 className="text-xl font-bold mb-4">تواصل معنا</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start">
-                <Phone className="h-5 w-5 ml-3 mt-1 text-white/60" />
-                <span className="text-white/80">+966 50 123 4567</span>
-              </li>
-              <li className="flex items-start">
-                <Mail className="h-5 w-5 ml-3 mt-1 text-white/60" />
-                <span className="text-white/80">info@apexaid.com</span>
-              </li>
-              <li className="flex items-start">
-                <MapPin className="h-5 w-5 ml-3 mt-1 text-white/60" />
-                <span className="text-white/80">الرياض، المملكة العربية السعودية</span>
-              </li>
-            </ul>
-          </motion.div>
+          
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center">
