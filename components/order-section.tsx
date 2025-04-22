@@ -94,7 +94,7 @@ export function OrderSection({ onOrderClick }: OrderSectionProps) {
             <motion.div variants={itemVariants} className="relative mb-8">
               <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 relative z-10 flex gap-2 items-center">
                 <span className="text-xl sm:2xl md:text-3xl mr-3">السعر :</span>
-                <span className="bg-primary-light text-white px-1 rounded-md pb-2">
+                <span className="bg-primary-light text-white px-1 rounded-md py-2">
                   400 <span className="text-2xl">ريال</span>
                 </span>
               </div>
@@ -218,7 +218,7 @@ export function OrderSection({ onOrderClick }: OrderSectionProps) {
 
             <motion.div variants={itemVariants1} className="relative mb-8">
               <div className="text-6xl font-bold text-gray-900 relative z-10">
-                <span className="bg-red-600 text-white px-1 py-0 rounded-md ">
+                <span className="bg-red-600 text-white px-1 py-2 rounded-md ">
                   299 <span className="text-xl sm:text-2xl">ريال</span>
                 </span>
 
