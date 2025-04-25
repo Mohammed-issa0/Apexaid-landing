@@ -135,7 +135,7 @@ export function HeroSection({ onOrderClick }: HeroSectionProps) {
                 className="flex items-center bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full"
               >
                 <Clock className="h-5 w-5 text-blue-400 ml-2" />
-                <span>يدوم 36 ساعة</span>
+                <span>يدوم 76 ساعة</span>
               </motion.div>
             </div>
 
